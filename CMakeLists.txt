@@ -55,7 +55,6 @@ juce_add_plugin(TEK_FACTORY
     EDITOR_WANTS_KEYBOARD_FOCUS TRUE
     COPY_PLUGIN_AFTER_BUILD FALSE
 )
-
 juce_add_plugin(TEK_FACTORY
     ...
 )
