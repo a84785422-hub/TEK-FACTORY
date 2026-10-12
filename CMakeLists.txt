@@ -56,6 +56,10 @@ juce_add_plugin(TEK_FACTORY
     COPY_PLUGIN_AFTER_BUILD FALSE
 )
 
+juce_add_plugin(TEK_FACTORY
+    ...
+)
+target_sources(TEK_FACTORY PRIVATE
 target_sources(TEK_FACTORY PRIVATE
     Source/PluginProcessor.cpp
     Source/PluginEditor.cpp
