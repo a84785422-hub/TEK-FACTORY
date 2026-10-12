@@ -17,19 +17,42 @@ FetchContent_Declare(
 
 FetchContent_MakeAvailable(JUCE)
 
+
 juce_add_binary_data(TEKFactorySamples
     SOURCES
-        Samples/KICK_2K24_01.wav
-        Samples/KICK_2K24_02.wav
-        Samples/KICK_2K24_03.wav
-        Samples/KICK_2K24_04.wav
-        Samples/KICK_2K24_05.wav
-        Samples/KICK_2K24_06.wav
-        Samples/KICK_2K24_07.wav
-        Samples/KICK_2K24_08.wav
-        Samples/KICK_2K24_09.wav
-        Samples/KICK_2K24_10.wav
+        Samples/24_01_SUB_CRUSH.wav
+        Samples/24_02_ACID_BITE.wav
+        Samples/24_03_METAL_EDGE.wav
+        Samples/24_04_DARK_RUMBLE.wav
+        Samples/24_05_HARD_CLIP.wav
+        Samples/24_06_NASAL_FURY.wav
+        Samples/24_07_TIGHT_PUNCH.wav
+        Samples/24_08_BITROT.wav
+        Samples/24_09_WIDE_GRIT.wav
+        Samples/24_10_TERROR_TAIL.wav
+        Samples/POTO_01_SUB_CRUSH.wav
+        Samples/POTO_02_ACID_BITE.wav
+        Samples/POTO_03_METAL_EDGE.wav
+        Samples/POTO_04_DARK_RUMBLE.wav
+        Samples/POTO_05_HARD_CLIP.wav
+        Samples/POTO_06_NASAL_FURY.wav
+        Samples/POTO_07_TIGHT_PUNCH.wav
+        Samples/POTO_08_BITROT.wav
+        Samples/POTO_09_WIDE_GRIT.wav
+        Samples/POTO_10_TERROR_TAIL.wav
+        Samples/TAP_01_SUB_CRUSH.wav
+        Samples/TAP_02_ACID_BITE.wav
+        Samples/TAP_03_METAL_EDGE.wav
+        Samples/TAP_04_DARK_RUMBLE.wav
+        Samples/TAP_05_HARD_CLIP.wav
+        Samples/TAP_06_NASAL_FURY.wav
+        Samples/TAP_07_TIGHT_PUNCH.wav
+        Samples/TAP_08_BITROT.wav
+        Samples/TAP_09_WIDE_GRIT.wav
+        Samples/TAP_10_TERROR_TAIL.wav
 )
+
+
 
 juce_add_plugin(TEK_FACTORY
     COMPANY_NAME "TEK FACTORY Audio"
