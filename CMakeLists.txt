@@ -18,18 +18,19 @@ FetchContent_Declare(
 FetchContent_MakeAvailable(JUCE)
 
 
+
 juce_add_binary_data(TEKFactorySamples
     SOURCES
-        Samples/24_01_SUB_CRUSH.wav
-        Samples/24_02_ACID_BITE.wav
-        Samples/24_03_METAL_EDGE.wav
-        Samples/24_04_DARK_RUMBLE.wav
-        Samples/24_05_HARD_CLIP.wav
-        Samples/24_06_NASAL_FURY.wav
-        Samples/24_07_TIGHT_PUNCH.wav
-        Samples/24_08_BITROT.wav
-        Samples/24_09_WIDE_GRIT.wav
-        Samples/24_10_TERROR_TAIL.wav
+        Samples/K24_01_SUB_CRUSH.wav
+        Samples/K24_02_ACID_BITE.wav
+        Samples/K24_03_METAL_EDGE.wav
+        Samples/K24_04_DARK_RUMBLE.wav
+        Samples/K24_05_HARD_CLIP.wav
+        Samples/K24_06_NASAL_FURY.wav
+        Samples/K24_07_TIGHT_PUNCH.wav
+        Samples/K24_08_BITROT.wav
+        Samples/K24_09_WIDE_GRIT.wav
+        Samples/K24_10_TERROR_TAIL.wav
         Samples/POTO_01_SUB_CRUSH.wav
         Samples/POTO_02_ACID_BITE.wav
         Samples/POTO_03_METAL_EDGE.wav
@@ -51,6 +52,7 @@ juce_add_binary_data(TEKFactorySamples
         Samples/TAP_09_WIDE_GRIT.wav
         Samples/TAP_10_TERROR_TAIL.wav
 )
+
 
 
 
