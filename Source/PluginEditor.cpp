@@ -37,6 +37,8 @@ TEK_FACTORYAudioProcessorEditor::TEK_FACTORYAudioProcessorEditor(TEK_FACTORYAudi
         knobs[(size_t)i]=std::make_unique<juce::Slider>();
         auto& s=*knobs[(size_t)i]; s.setSliderStyle(juce::Slider::RotaryHorizontalVerticalDrag); s.setTextBoxStyle(juce::Slider::TextBoxBelow,false,64,18); s.setColour(juce::Slider::textBoxTextColourId,juce::Colour(0xfff5f0ff)); s.setColour(juce::Slider::textBoxBackgroundColourId,juce::Colour(0xff17151f)); s.setNumDecimalPlacesToDisplay(1);
         addAndMakeVisible(s);
+        labels[(size_t)i] = std::make_unique<juce::Label>();
+        addAndMakeVisible(*labels[(size_t)i]);
         labels[(size_t)i]=std::make_unique<juce::Label>(); labels[(size_t)i]->setText(names[i],juce::dontSendNotification); labels[(size_t)i]->setJustificationType(juce::Justification::centred); labels[(size_t)i]->setFont(juce::Font(juce::FontOptions(11.0f,juce::Font::bold))); labels[(size_t)i]->setColour(juce::Label::textColourId,(i==4||i==5||i==7)?juce::Colour(0xff8cff00):juce::Colour(0xffb84cff)); addAndMakeVisible(*labels[(size_t)i]);
         attachments[(size_t)i]=std::make_unique<juce::AudioProcessorValueTreeState::SliderAttachment>(processor.parameters,ids[i],s);
     }
