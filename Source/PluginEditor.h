@@ -5,7 +5,10 @@
 class TEK_FACTORYAudioProcessorEditor : public juce::AudioProcessorEditor {
 public:
     explicit TEK_FACTORYAudioProcessorEditor(TEK_FACTORYAudioProcessor&);
-    ~TEK_FACTORYAudioProcessorEditor() override = default;
+    ~TEK_FACTORYAudioProcessorEditor() override
+{
+    setLookAndFeel(nullptr);
+}
     void paint(juce::Graphics&) override;
     void resized() override;
 private:
