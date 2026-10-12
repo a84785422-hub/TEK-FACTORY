@@ -22,7 +22,7 @@ jobs:
         run: cmake -S . -B build -A x64
 
       - name: Build VST3
-        run: cmake --build build --config Release
+        run: cmake --build build --config Release -- /v:detailed
 
       - name: Upload build
         uses: actions/upload-artifact@v4
