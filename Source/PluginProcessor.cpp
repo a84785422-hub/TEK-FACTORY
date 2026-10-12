@@ -72,7 +72,7 @@ void TEK_FACTORYAudioProcessor::triggerPreview() {
 void TEK_FACTORYAudioProcessor::processBlock(juce::AudioBuffer<float>& buffer, juce::MidiBuffer& midi) {
     juce::ScopedNoDenormals noDenormals;
     buffer.clear();
-    return;
+    
     const int selected = juce::jlimit(0, 29, (int)parameters.getRawParameterValue("kick")->load());
     const float pitch = parameters.getRawParameterValue("pitch")->load();
     const float drive = parameters.getRawParameterValue("drive")->load() / 100.0f;
