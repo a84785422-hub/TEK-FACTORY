@@ -1,0 +1,7 @@
+TEK FACTORY - analyse technique initiale
+
+kick 2k24.wav | 44100 Hz | 2 ch | 1.604 s | peak 0.684 | RMS 0.192 | spectral centroid 1914 Hz
+kick poto.mp3 | 44100 Hz | 2 ch | 1.649 s | peak 1.018 | RMS 0.280 | spectral centroid 1539 Hz
+tappkiki.wav.wav | 44100 Hz | 2 ch | 1.583 s | peak 0.545 | RMS 0.149 | spectral centroid 2446 Hz
+
+Note: mesures techniques calculées sur les fichiers fournis; elles ne remplacent pas une écoute critique. Les 30 rendus sont des variations de traitement déterministes, pas des enregistrements entièrement nouveaux.

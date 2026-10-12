@@ -1,0 +1,5 @@
+TEK FACTORY - statut du livrable
+
+Inclus : projet C++ JUCE/CMake, interface personnalisée, 30 samples transformés et intégrés au binaire, workflow GitHub Actions Windows x64, guide français et analyse technique initiale.
+
+Vérification locale : CMake détecte correctement le projet mais ne peut pas télécharger JUCE dans l'environnement de création car l'accès réseau à github.com est indisponible. Le binaire VST3 n'a donc pas été compilé ni testé dans cet environnement. Le workflow GitHub Actions récupère JUCE et réalise la compilation sur un runner Windows connecté. Ne considérer le VST3 comme prêt à installer qu'après succès du workflow et test dans FL Studio.
